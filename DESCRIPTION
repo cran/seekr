@@ -1,0 +1,28 @@
+Package: seekr
+Title: Extract Matching Lines from Matching Files
+Version: 0.1.2
+Authors@R: 
+    person("Sacha", "Martingay", , "martingay.sacha@hotmail.com", role = c("aut", "cre", "cph"))
+Description: Provides a simple interface to recursively list files from a
+    directory, filter them using a regular expression, read their
+    contents, and extract lines that match a user-defined pattern. The
+    package returns a dataframe containing the matched lines, their
+    line numbers, file paths, and the corresponding matched substrings.
+    Designed for quick code base exploration, log inspection, or any use
+    case involving pattern-based file and line filtering.
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+Suggests: testthat (>= 3.0.0), withr
+Config/testthat/edition: 3
+Imports: checkmate, cli, fs, lifecycle, purrr, readr, stringr, tibble,
+        tidyr
+URL: https://github.com/smartiing/seekr,
+        https://smartiing.github.io/seekr/
+BugReports: https://github.com/smartiing/seekr/issues
+NeedsCompilation: no
+Packaged: 2025-04-30 16:51:50 UTC; smarting
+Author: Sacha Martingay [aut, cre, cph]
+Maintainer: Sacha Martingay <martingay.sacha@hotmail.com>
+Repository: CRAN
+Date/Publication: 2025-05-05 09:10:02 UTC
